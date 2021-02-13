@@ -8,6 +8,6 @@ This is a tool to convert from MySQL Workbench file to Sequelize Migration files
 ## How to use
 1. Put .mwb file to `files/input/` folder
 2. Build docker image with the command `make build`
-3. Convert with the command `sh scripts/convert.sh PATH/TO/.mwb`
+3. Convert with the command `sh scripts/convert.sh files/input/filenamehere.mwb`
 
 Now you can get migration files in `files/output`.
