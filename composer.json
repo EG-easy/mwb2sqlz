@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mysql-workbench-schema-exporter/mysql-workbench-schema-exporter": "dev-master#42585a4a43841fe6910af318de45d90182ebd60e",
+        "mysql-workbench-schema-exporter/node-exporter": "dev-master#9ccdbc21958fdbedc3d74fe108f4d2c3f3666f9a",
+        "halilim/xml-iterator": "^1.0"
+    }
+}
