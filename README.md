@@ -1,5 +1,5 @@
 ## MySQL Workbench To Sequelize
-This is a tool to convert from MySQL Workbench file to Sequelize Migration files.
+This is a tool to convert from MySQL Workbench file to Sequelize Model files.
 
 *requirement*
 - docker
@@ -10,4 +10,4 @@ This is a tool to convert from MySQL Workbench file to Sequelize Migration files
 2. Build docker image with the command `make build`
 3. Convert with the command `sh scripts/convert.sh files/input/filenamehere.mwb` or `"./scripts/convert.bat" files/input/filenamehere.mwb` in windows
 
-Now you can get migration files in `files/output`.
+Now you can get model files in `files/output`.
